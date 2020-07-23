@@ -1,0 +1,44 @@
+button{
+    padding: 1rem;
+    border: none;
+    border-radius: 2px;
+    margin-left:10px;
+    font-family: 'Bitter','serif';
+}
+button:hover{
+    transform: scale(1.1);
+    transition: ease-in 400ms;
+}   
+
+@media screen and (max-width:600px){
+    button{
+        border: none;
+        padding:10px;
+        margin:5px 5px;
+    }
+    input{
+        padding:2px;
+    }
+
+    button:hover{
+        transform: scale(0.8);
+        transition: ease-in 400ms;
+    }
+
+    input:hover{
+        transform: scale(0.8);
+        transition: ease-in 400ms;
+    }
+
+
+}
+
+input{
+    padding: 0.9rem;
+    font-family: 'Bitter','serif';
+}
+
+input:hover{
+    transform: scale(1.1);
+    transition: ease-in 400ms;
+}

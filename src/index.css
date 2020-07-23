@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background: linear-gradient(to right, #d15c93, #cef4f5);
+}
+
+@media screen and (max-width:600px){
+    *{
+        margin:0 auto;
+        padding:5px;
+        box-sizing: border-box;
+    }
+}

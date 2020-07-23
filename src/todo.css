@@ -1,0 +1,45 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -3rem 5px;
+    background-color: rgb(255,255,255,0.1);
+    align-items: center;
+    padding:1.1rem 3rem; 
+    font-size: 1.5rem;
+    color:white
+}
+
+.todo :hover{
+    transform: scale(1.1);
+    transition: ease-in 400ms;
+}
+
+.buttons{
+    flex-shrink: 0;
+    padding-left: 0.7em;
+}
+
+.buttons button{
+    border: none;
+    font-size: 0.7em;
+    margin:0.4em;
+    background: none;
+    color:white;
+}
+
+@media screen  and (max-width:600px){
+    button{
+        margin:0.2em;
+        border: none;
+    }
+    .todo :hover{
+        transform: scale(0.9);
+        transition: ease-in 400ms;
+    }
+}
+
+li{
+    font-family: 'Rokkitt', serif;
+}
+
+
