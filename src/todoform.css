@@ -8,7 +8,7 @@ button{
 }
 button:hover{
     transform: scale(1.1);
-    transition: ease-in 400ms;
+    transition: ease-in 450ms;
 }   
 
 @media screen and (max-width:600px){
@@ -23,12 +23,12 @@ button:hover{
 
     button:hover{
         transform: scale(0.8);
-        transition: ease-in 400ms;
+        transition: ease-in 450ms;
     }
 
     input:hover{
         transform: scale(0.8);
-        transition: ease-in 400ms;
+        transition: ease-in 450ms;
     }
 
 
@@ -44,5 +44,5 @@ input{
 
 input:hover{
     transform: scale(1.1);
-    transition: ease-in 400ms;
+    transition: ease-in 450ms;
 }
